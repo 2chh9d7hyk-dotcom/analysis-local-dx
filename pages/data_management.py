@@ -7,6 +7,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.ui.theme import inject_theme, set_page_config
+from src.ui.auth import login_gate, logout_button
 from src.ui.components import hero_section, section_header, divider, spacer, alert_future
 from src.data.loader import (
     load_from_uploaded, detect_table_type,
@@ -22,6 +23,11 @@ from src.config import EXPECTED_SCHEMAS, SAMPLE_DIR
 
 set_page_config("データ管理", "🗄️")
 inject_theme()
+
+if not login_gate():
+    st.stop()
+
+logout_button()
 
 # ── ヒーロー ──────────────────────────────────────────────────
 hero_section(
