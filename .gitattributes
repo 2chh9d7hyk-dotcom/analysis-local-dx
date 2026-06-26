@@ -1,0 +1,7 @@
+# Streamlit Cloud (Linux) でのCRLF問題を防ぐ
+* text=auto eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

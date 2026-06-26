@@ -1,0 +1,5 @@
+﻿municipality_code,name,population_total,aging_rate,industry_structure,fiscal_health_index,target_year
+073229,大玉村,7821,0.312,"{""primary"": 0.15, ""secondary"": 0.28, ""tertiary"": 0.57}",0.48,2024
+073229,大玉村,7912,0.301,"{""primary"": 0.16, ""secondary"": 0.27, ""tertiary"": 0.57}",0.46,2023
+073229,大玉村,8045,0.291,"{""primary"": 0.17, ""secondary"": 0.27, ""tertiary"": 0.56}",0.45,2022
+073229,大玉村,8193,0.278,"{""primary"": 0.18, ""secondary"": 0.28, ""tertiary"": 0.54}",0.43,2021
